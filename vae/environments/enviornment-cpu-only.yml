@@ -1,0 +1,17 @@
+name: vae
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch::pytorch=1.13
+  - pytorch::torchvision=0.14.*
+  - pytorch::cpuonly
+  - pip
+  - numpy
+  - jupyter
+  - matplotlib
+  - tqdm
+  - pip:
+    - einops

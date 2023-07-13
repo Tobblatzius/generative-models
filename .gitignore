@@ -1,0 +1,9 @@
+*.png
+*.gif
+*lightning_logs
+*.pt
+*data
+*.ipynb_checkpoints
+*output*
+*saved_models
+*.jpeg

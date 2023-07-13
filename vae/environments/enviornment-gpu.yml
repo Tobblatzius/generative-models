@@ -1,0 +1,19 @@
+name: vae
+channels:
+- defaults
+- pytorch
+- conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=1.11
+  - torchvision=0.12
+  - cudatoolkit=11.3
+  - pip
+  - numpy
+  - jupyter
+  - nbgrader
+  - importlib_resources # Using nbgrader caused an issue like this: https://github.com/enthought/mayavi/issues/1000
+  - matplotlib
+  - tqdm
+  - pip:
+    - einops
